@@ -1,5 +1,8 @@
 export class Persona{
-    id:number;
-    name:String;
-    apellidos:String;
+    constructor(
+        public id:number,
+        public name:String,
+        public apellidos:String
+    ){}
+    
 }
