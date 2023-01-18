@@ -22,8 +22,8 @@
                         <td>{{persona.nombres}}</td>
                         <td>{{persona.apellidos}}</td>
                         <td>
-                            <button type="button" class="btn btn-warning">Editar</button>
-                            <button type="button" class="btn btn-danger"style="margin-left: 10px;">Delete</button>
+                            <button (click)="Editar(persona)" type="button" class="btn btn-warning">Editar</button>
+                            <button (click)="Delete(persona)" type="button" class="btn btn-danger"style="margin-left: 10px;">Delete</button>
                         </td>
                     </tr>
                 </tbody>
